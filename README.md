@@ -1,6 +1,6 @@
 # SkyWalker #
 
-GPS-like navigation system for deep space
+GPS-like navigation system for space
 
 ## TODO ##
 
