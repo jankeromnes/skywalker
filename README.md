@@ -1,11 +1,10 @@
 # SkyWalker #
 
 GPS-like navigation system for Space
-https://jankeromnes.github.com/skywalker
 
 ## Done ##
 
-- Display 3D Earth
+- [Display 3D Earth] (https://jankeromnes.github.com/skywalker)
 
 ## Todo ##
 
