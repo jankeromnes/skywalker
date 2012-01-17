@@ -1,11 +1,15 @@
 # SkyWalker #
 
-GPS-like navigation system for space
+GPS-like navigation system for Space
 
-## TODO ##
+## Done ##
 
-1. Access to data of known planetary systems
-2. 3D visualization of known planetary systems
-3. Space coordinate-based positioning system
-4. Route calculations with useful information
-5. Clever space navigation interface
+- Display 3D Earth
+
+## Todo ##
+
+1. Time & Space coordinate systems
+2. Use real data from [NASA] (http://naif.jpl.nasa.gov/naif/data_generic.html)
+3. Route calculation
+4. Useful info on Planets and Flights
+5. Clever navigation UI
