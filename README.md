@@ -4,7 +4,7 @@ GPS-like navigation system for Space
 
 ## Done ##
 
-- [Display 3D Earth] (https://jankeromnes.github.com/skywalker)
+- [Display 3D Earth] (http://jankeromnes.github.com/skywalker)
 
 ## Todo ##
 
