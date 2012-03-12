@@ -4,17 +4,18 @@
 
 
 // Import the modules we need
-var spice = require('./lib/spice.js'),   // NASA data tools
-    camp = require('./camp/camp.js');    // WebApp Server
+var spice = require('./lib/spice.js'),  // NASA data tools
+    camp = require('./camp/camp.js');   // WebApp server
 
 
 // The data we will be working with
-var Space = {};
+var data = {};
 
 
 // Load the Solar System PCK file we got from NASA's SPICE data
-spice.readPCK('../data/pck00010.tpc', function(PCK) {
-  Space['SolarSystem'] = PCK;
+spice.readPCK('../data/pck00010.tpc', require('./data/naif_ids.json'), function(PCK) {
+  data = PCK;
+  console.log(data);
 });
 
 
